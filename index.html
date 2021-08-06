@@ -53,17 +53,9 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="navbar-nav navbar-nav-right">
-                                <!-- Home -->
-                                <li class="nav-item">
-                                    <a class="nav-item-child active" href="#">
-                                        Home
-                                    </a>
-                                </li>
-                                <!-- End Home -->
-
                                 <!-- News -->
                                 <li class="nav-item">
-                                    <a class="nav-item-child" href="#">
+                                    <a class="nav-item-child" href="#news">
                                         News
                                     </a>
                                 </li>
@@ -71,7 +63,7 @@
 
                                 <!-- Research Highlights -->
                                 <li class="nav-item">
-                                    <a class="nav-item-child" href="#">
+                                    <a class="nav-item-child" href="#research">
                                         Research
                                     </a>
                                 </li>
@@ -79,7 +71,7 @@
 
                                 <!-- Lab Members -->
                                 <li class="nav-item">
-                                    <a class="nav-item-child" href="#">
+                                    <a class="nav-item-child" href="#members">
                                         Members
                                     </a>
                                 </li>
@@ -87,7 +79,7 @@
 
                                 <!-- Selected Publications -->
                                 <li class="nav-item">
-                                    <a class="nav-item-child" href="#">
+                                    <a class="nav-item-child" href="#publications">
                                         Publications
                                     </a>
                                 </li>
@@ -95,7 +87,7 @@
 
                                 <!-- Contact -->
                                 <li class="nav-item">
-                                    <a class="nav-item-child" href="#">
+                                    <a class="nav-item-child" href="#contact">
                                         Contact
                                     </a>
                                 </li>
@@ -181,7 +173,7 @@
         <!-- End About Us -->
 
         <!-- Features -->
-        <div class="section-seperator">
+        <div class="bg-color-sky-light overflow-h">
             <div class="content-md container">
                 <div class="row">
                     <div class="col-sm-4 sm-margin-b-50">
@@ -211,14 +203,24 @@
         </div>
         <!-- End Features -->
 
-        
+        <!-- News -->
+        <div class="section-seperator">
+        <div class="content-md container">
+            <div class="row margin-b-40">
+                <div class="col-sm-6">
+                    <h2>News</h2>
+                    <p>We work on various projects related to applying evolutionary algorithms in software and the real world. We also study more fundamental questions in Genetic Programming and other EC methods around regulation, open-ended evolution, novelty and search space dynamics. Algorithms influenced by ecology and social systems are another topic of interest, so is the field of Artificial Life in general and its subfield of Artificial Chemistries.</p>
+                </div>
+            </div>
+            <!--// end row -->
+        </div>        
 
         <!-- Work -->
         <div class="bg-color-sky-light overflow-h">
             <div class="content-md container">
                 <div class="row margin-b-40">
                     <div class="col-sm-6">
-                        <h2>Research Highlights</h2>
+                        <h2 id="research">Research Highlights</h2>
                         <p>Here are some of our selected research projects</p>
                     </div>
                 </div>
@@ -308,7 +310,7 @@
             <div class="content-md container">
                 <div class="row margin-b-40">
                     <div class="col-sm-6">
-                        <h2>Lab Members</h2>
+                        <h2 id="members">Lab Members</h2>
                         <p>Meet our lab members.</p>
                     </div>
                 </div>
@@ -324,7 +326,7 @@
                         </div>
                         <h4><a href="#">Wolfgang Banzhaf</a> <span class="text-uppercase margin-l-20">Professor</span></h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Link</a>
+                        <a class="link" href="#" target="_blank">Link</a>
                     </div>
                     <!-- End Team -->
 
@@ -337,7 +339,7 @@
                         </div>
                         <h4><a href="#">Stephen Kelly</a> <span class="text-uppercase margin-l-20">Postdoc</span></h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Link</a>
+                        <a class="link" href="#" target="_blank">Link</a>
                     </div>
                     <!-- End Team -->
 
@@ -350,7 +352,7 @@
                         </div>
                         <h4><a href="#">Ken Reid</a> <span class="text-uppercase margin-l-20">Postdoc</span></h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Link</a>
+                        <a class="link" href="https://www.kenreid.co.uk" target="_blank">Personal Website</a>
                     </div>
                     <!-- End Team -->
                 </div>
@@ -361,14 +363,13 @@
         <!-- End Team -->
         <!--========== END PAGE LAYOUT ==========-->
 
-        <!--========== FOOTER ==========-->
-        <footer class="footer">
+        
             <!-- About Us -->
             <div class="section-seperator">
                 <div class="content-md container">
                     <div class="row margin-b-40">
                         <div class="col-sm-12">
-                            <h2>Publications</h2>
+                            <h2 id="publications">Publications</h2>
                             <ol>
                                 <li>
                                     1- Cussat-Blanc, S., Harrington, K. & Banzhaf, W. (2018) <i>Artificial Genetic Regulatory Networks - A Review.</i> Artificial Life, 24, 296-328.
@@ -396,6 +397,18 @@
             </div>
             <!-- End About Us -->
 
+            <div class="bg-color-sky-light">
+            <div class="content-md container">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2 id="contact">Contact Us</h2>
+                        <p>We can be contacted..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Team -->
+
             <!-- Copyright -->
             <div class="content container">
                 <div class="row">
@@ -416,8 +429,8 @@
                 <!--// end row -->
             </div>
             <!-- End Copyright -->
-        </footer>
-        <!--========== END FOOTER ==========-->
+
+
 
         <!-- Back To Top -->
         <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
